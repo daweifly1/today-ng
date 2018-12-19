@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
-import {LocalStorageService} from '../../services/local-storage.service';
-import {INIT_FLAG, START_USING_DATE, USERNAME} from '../../services/local-storage.namespace';
+import {INIT_FLAG, START_USING_DATE, USERNAME} from '../../services/local-storage/local-storage.namespace';
 import {getTodayTime} from '../../utils/time';
+import {LocalStorageService} from '../../services/local-storage/local-storage.service';
 
 @Component({
   selector: 'app-setup',
